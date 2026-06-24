@@ -1,12 +1,10 @@
 @font-face {
-	font-family: 'Herokid';
-	src:
-		url('fonts/Herokid-Regular.woff2') format('woff2'),
-		/* Shrift formatiga qarab */ url('fonts/Herokid-Regular.woff') format('woff'),
-		url('fonts/Herokid-Regular.ttf') format('truetype');
-	font-weight: normal;
+	font-family: 'Herokid'; /* Shrift nomi */
+	src: url('../css/fonts/Fontspring-DEMO-herokid-bold.otf') format('opentype'); /* Fayl yo'li */
+	font-weight: bold;
 	font-style: normal;
 }
+
 * {
 	margin: 0;
 	padding: 0;
@@ -136,13 +134,15 @@ body {
 	font-weight: 600;
 	text-align: center;
 	text-transform: uppercase;
-	letter-spacing: -0.03em;
+	letter-spacing: -0.05em;
 	line-height: 1;
 	color: #fff;
 	margin-top: 15px;
 	font-size: 20px;
 }
 .title span {
+	letter-spacing: -0.09em;
+
 	font-size: 30px;
 	white-space: nowrap;
 
